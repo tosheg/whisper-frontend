@@ -13,5 +13,5 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://USERNAME.github.io/whisper-frontend"
+  "homepage": "https://tosheg.github.io/whisper-frontend"
 }
