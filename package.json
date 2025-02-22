@@ -8,10 +8,8 @@
     "react-scripts": "5.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build --dest whisper"
   },
-  "homepage": "https://tosheg.github.io/whisper-frontend"
+  "homepage": "https://hackanton.com/whisper"
 }
