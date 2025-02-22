@@ -30,6 +30,7 @@ export default function Transcriber() {
 
   return (
     <div style={{ textAlign: "center", padding: "20px" }}>
+      <h1>Whisper Transcriber</h1>
       <input type="file" accept="audio/*" onChange={handleFileChange} />
       <button onClick={handleUpload} disabled={!file || loading}>
         {loading ? "Обрабатываем..." : "Транскрибировать"}
